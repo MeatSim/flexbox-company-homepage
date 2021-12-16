@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "Impact";
+    src: url(fonts/impact.ttf) format("ttf");
+}
+
+
 html {
     background-color: black;
     color: white;
+    font-family: "Impact", Arial, sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 24px;
 }
 
 header,
@@ -12,8 +21,37 @@ header,
     align-items: center;
 }
 
-h1, h2, h3, span {
+header {
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+li {
+    margin: 1rem;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
     text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 1rem;
 }
 
 img {
