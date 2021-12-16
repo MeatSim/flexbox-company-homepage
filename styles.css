@@ -37,9 +37,21 @@ li {
     margin: 1rem;
 }
 
+.banner {
+    background-image: url("images/committeh.jpg");
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 h1, h2, h3 {
     text-transform: uppercase;
     text-align: center;
+	text-shadow:
+		-1.5px -1.5px 0 #000,
+		1.5px -1.5px 0 #000,
+		-1.5px 1.5px 0 #000,
+		1.5px 1.5px 0 #000;
 }
 
 h1 {
@@ -56,4 +68,9 @@ section {
 
 img {
     max-width: 400px;
+}
+
+#mission,
+#employees {
+    background-color: #111;
 }
