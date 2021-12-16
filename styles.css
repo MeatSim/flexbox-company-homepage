@@ -1,0 +1,21 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+header,
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1, h2, h3, span {
+    text-align: center;
+}
+
+img {
+    max-width: 400px;
+}
